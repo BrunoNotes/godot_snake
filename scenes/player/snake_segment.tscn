@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bix13u2ve1ick"]
+
+[sub_resource type="Theme" id="Theme_nuj0h"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_64vly"]
+bg_color = Color(3.85046e-07, 0.829979, 0.350366, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.00912083, 0.31174, 4.81308e-08, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[node name="SnakeSegment" type="Panel" groups=["Segments"]]
+offset_right = 50.0
+offset_bottom = 50.0
+theme = SubResource("Theme_nuj0h")
+theme_override_styles/panel = SubResource("StyleBoxFlat_64vly")
